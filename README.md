@@ -34,3 +34,7 @@
 `ForegeinKey()` -> é um campo de chave estrangeiras.
     -on_delete=models.CASCADE -> significa que quando um paciente/medico for deletado, a consulta também será deletada
     - verbose_name -> é o nome do campo que será exibido no admin
+
+
+    victor
+    
