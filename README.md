@@ -36,5 +36,4 @@
     - verbose_name -> é o nome do campo que será exibido no admin
 
 
-    victor
     
