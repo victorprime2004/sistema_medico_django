@@ -11,6 +11,8 @@ class MedicoAdmin(admin.ModelAdmin):
 class PacienteAdmin(admin.ModelAdmin):
     list_display = ('id','nome','email','telefone','ativo',)
 
+
+
 @admin.register(models.Consulta) # Registrando a classe Consulta do portal do pyton
 class ConsultaAdmin(admin.ModelAdmin):
     list_display = ('id','paciente_id','medico_id','status',)
